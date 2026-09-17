@@ -1,0 +1,32 @@
+<?php
+/******************************************************************************
+Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
+Disciplina: Linguagem e Técnicas de Programacão
+Professor: Flores
+Turma: ADS2A
+Componentes:
+ 26014395-2 - Alison José de Oliveira
+ 26013429-2 - Andre Jose Rosa Neto
+ 26014141-2 - Brenda Isabela Banderas
+ 26011811-2 - Caio Eduardo Matos Mendonça
+ 26013857-2 - Pedro Leonardo de Assis Barbosa
+Data: 23 de Setembro de 2026
+Descritivo: Escreva um programa que leia um número inteiro e exiba na tela o seu antecessor e o seu
+sucessor.
+*******************************************************************************/
+
+//exercicio 08 - Numero antecessor e sucessor
+
+    $n1 = (int) 9;
+    $sucessor = $n1 + 1;
+    $antecessor = $n1 - 1;
+
+    echo "Antecessor: " . $antecessor . "\n";
+    echo "Sucessor: " . $sucessor . "\n";
+    
+
+/*
+Exibe antecessor e sucessor
+*/
+
+?>
